@@ -1,0 +1,14 @@
+<taglib>
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.0</tlib-version>
+		<tag>
+			<name>for</name>
+			<tag-class>com.app.ForTagHandler</tag-class>
+			<body-content>jsp</body-content>
+				<attribute>
+					<name>times</name>
+					<required>true</required>
+					<rtexprvalue>true</rtexprvalue>
+				</attribute>
+		</tag>
+</taglib>
